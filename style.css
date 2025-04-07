@@ -28,9 +28,23 @@ a {
 	color: white;
 }
 
+.container {
+	display: flex;
+	justify-content: center;
+	border: 5px solid purple;
+}
+
 .header-content {
 	border: 5px solid green;
 	display: flex;
 	max-width: 300px;
 	flex-wrap: wrap;
+}
+
+.img-container {
+	display: flex;
+	background-color: gray;
+	justify-content: center;
+	align-items: center;
+	padding: 3rem;
 }
