@@ -59,15 +59,15 @@ header {
 }
 
 ul {
-	list-style-type: none;
-	display: flex;
-	align-items: center;
-	gap: 2rem;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
 
 a {
-	color: #E5E7EB;
-	text-decoration: none;
+  color: #E5E7EB;
+  text-decoration: none;
 }
 
 .section {
@@ -116,6 +116,33 @@ a {
 .author {
   display: flex;
   justify-content: flex-end;
+}
+
+.sign-up {
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 200px;
+  padding: 50px 100px;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.call-text,
+.call-button button {
+  color: #f9faf8;
+  background-color: #3882f6;
+}
+
+.call-text p {
+  color: #e5e7eb;
+}
+
+.call-button button {
+  padding: 10px 50px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 6px;
 }
 
 footer {
