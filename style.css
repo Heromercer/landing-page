@@ -103,6 +103,21 @@ a {
   color: #636363;
 }
 
+.quote {
+  background-color: #E5E7EB;
+  padding: 150px 300px;
+}
+
+.quote p {
+  color: #1F2937;
+  font-size: 36px;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-end;
+}
+
 footer {
 	background-color: #1F2937;
 	color: #E5E7EB;
